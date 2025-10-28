@@ -1,0 +1,12 @@
+Tkinter available
+Import successful
+Quests import successful
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from skills import create_skills_tab; print('Skills import successful')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erick\Desktop\OSRS\Quest\DynamicQuestTracker\skills.py", line 3, in <module>
+    from functions import fetch_skills
+  File "C:\Users\erick\Desktop\OSRS\Quest\DynamicQuestTracker\functions.py", line 4, in <module>
+    from .data import API_URL, skills, skill_names
+ImportError: attempted relative import with no known parent package

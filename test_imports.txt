@@ -1,0 +1,10 @@
+Tkinter available
+Import successful
+Quests import successful
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from skills import create_skills_tab; print('Skills import successful')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\erick\Desktop\OSRS\Quest\DynamicQuestTracker\skills.py", line 3, in <module>
+    from utils.functions import fetch_skills
+ModuleNotFoundError: No module named 'utils.functions'

@@ -1,5 +1,5 @@
 import tkinter as tk
-from utils.data import progression_guide, BG_COLOR, FG_COLOR
+from data import progression_guide, BG_COLOR, FG_COLOR
 
 def create_guide_tab(notebook):
     frame_guide = tk.Frame(notebook, bg=BG_COLOR)

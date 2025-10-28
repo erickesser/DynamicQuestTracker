@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import os
-from utils.data import load_progress, save_progress, PLAYER_NAME, BG_COLOR, FG_COLOR, ACCENT, FONT
+from data import load_progress, save_progress, PLAYER_NAME, BG_COLOR, FG_COLOR, ACCENT, FONT
 
 # Verificar se a configuração existe
 if not os.path.exists("quest_config.py"):

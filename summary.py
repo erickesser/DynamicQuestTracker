@@ -1,5 +1,5 @@
 import tkinter as tk
-from utils.data import quests, skills, chain_quests, BG_COLOR, FG_COLOR, ACCENT, FONT
+from data import quests, skills, chain_quests, BG_COLOR, FG_COLOR, ACCENT, FONT
 
 def create_summary_tab(notebook, quest_vars, chain_vars, skill_levels):
     frame_summary = tk.Frame(notebook, bg=BG_COLOR)

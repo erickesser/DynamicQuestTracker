@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from utils.data import quests, BG_COLOR, FG_COLOR, ACCENT, FONT
+from data import quests, BG_COLOR, FG_COLOR, ACCENT, FONT
 
 def create_quests_tab(notebook, quest_status, save_progress, data):
     frame_quests = tk.Frame(notebook, bg=BG_COLOR)

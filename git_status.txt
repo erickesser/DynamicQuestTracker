@@ -1,0 +1,25 @@
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   chain.py
+	modified:   config.py
+	modified:   functions.py
+	modified:   guide.py
+	modified:   main.py
+	modified:   quests.py
+	modified:   skills.py
+	modified:   summary.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	__pycache__/
+	data.json
+	git_status.txt
+	output.txt
+	output2.txt
+	test_imports.txt
+	test_imports2.txt
+	test_imports3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")

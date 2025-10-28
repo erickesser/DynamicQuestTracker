@@ -1,0 +1,29 @@
+{
+    "quests": {},
+    "chain_quests": {},
+    "skills": {
+        "attack": 62,
+        "strength": 75,
+        "defence": 60,
+        "hitpoints": 69,
+        "ranged": 60,
+        "magic": 68,
+        "prayer": 52,
+        "runecrafting": 10,
+        "construction": 52,
+        "agility": 74,
+        "herblore": 1,
+        "thieving": 31,
+        "crafting": 21,
+        "fletching": 79,
+        "slayer": 23,
+        "hunter": 1,
+        "mining": 76,
+        "smithing": 64,
+        "fishing": 63,
+        "cooking": 40,
+        "firemaking": 99,
+        "woodcutting": 67,
+        "farming": 1
+    }
+}

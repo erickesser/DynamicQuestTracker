@@ -1,6 +1,6 @@
 import tkinter as tk
-from utils.data import skills, skill_names, BG_COLOR, FG_COLOR, ACCENT, FONT
-from utils.functions import fetch_skills
+from data import skills, skill_names, BG_COLOR, FG_COLOR, ACCENT, FONT
+from functions import fetch_skills
 
 def create_skills_tab(notebook, skill_levels, save_progress, data):
     frame_skills = tk.Frame(notebook, bg=BG_COLOR)

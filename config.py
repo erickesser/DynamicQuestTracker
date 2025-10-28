@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
-from utils.data import PLAYER_NAME, BG_COLOR, FG_COLOR, ACCENT, FONT
-from utils.functions import update_player_name
+from data import PLAYER_NAME, BG_COLOR, FG_COLOR, ACCENT, FONT
+from functions import update_player_name
 
 def create_config_tab(notebook):
     frame_config = tk.Frame(notebook, bg=BG_COLOR)

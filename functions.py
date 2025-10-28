@@ -1,7 +1,7 @@
 import requests
 import tkinter as tk
 from tkinter import messagebox
-from .data import API_URL, skills, skill_names
+from data import API_URL, skills, skill_names
 
 # -----------------------------
 # FUNÇÃO PARA ATUALIZAR SKILLS
@@ -26,6 +26,6 @@ def fetch_skills(skill_levels, update_skills_tab, save_progress, data):
         messagebox.showerror("Erro", str(e))
 
 def update_player_name(new_name):
-    from .data import PLAYER_NAME, update_api_url
+    from data import PLAYER_NAME, update_api_url
     PLAYER_NAME = new_name
     update_api_url(new_name)

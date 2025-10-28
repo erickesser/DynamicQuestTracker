@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from utils.data import chain_quests, BG_COLOR, FG_COLOR, ACCENT, FONT
+from data import chain_quests, BG_COLOR, FG_COLOR, ACCENT, FONT
 
 def create_chain_tab(notebook, chain_quest_status, save_progress, data):
     frame_chain = tk.Frame(notebook, bg=BG_COLOR)
